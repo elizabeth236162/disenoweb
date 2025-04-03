@@ -1,0 +1,48 @@
+/*documento css*/
+
+*{margin: 0pc; padding: 0px;}
+
+
+h1 {color: aliceblue; 
+        font-size: 2.8em; 
+        text-shadow: 2px 2px 2px black;
+         padding-top: 170px;}
+
+.container {width: 100%; 
+        min-height: 1px;
+        display: flex;
+         flex-direction: column; 
+         justify-content: space-between;
+         align-items: stretch;}
+
+
+.item { background-color: aquamarine; 
+        background-size: 100% 100%;
+         width:100% ; 
+         height: 300px;
+        text-align: center;
+         background-image:url(https://picsum.photos/id/237/200/300);}
+
+.tres {align-self: flex-start;}
+
+        /*.tres {align self: flex end}*/
+                /*MEDIA QUERIES BREAKPOINT 600PX*/
+
+
+@media only screen and (min-width:600px) {
+
+.container{f}
+
+.item{width: 50%;
+        box-sizing: border-box; 
+        margin-left: 1%; 
+        margin-bottom: 16px; margin: 32px auto}
+
+.container {flex-wrap: nowrap;
+        flex-direction: row; 
+        justify-content: space-between;
+        width: auto;
+        margin: 32px 0px;}
+
+
+.item:hover{filter: brightness(80%);}}

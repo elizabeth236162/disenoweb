@@ -1,0 +1,21 @@
+/*documento css*/
+
+.cabecera{background-color: rgb(196, 196, 196);
+        padding: 16px; 0px}
+.magngatos{;margin: auto;}
+h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: center; font-size: 100px;}
+h2{font-family: Arial, Helvetica, sans-serif; text-align: center;
+         font-size: 50px; background-color: rgb(234, 234, 234); padding: 16px 0px;}
+.logo{font-size: 6em; color: yellow; text-align: center; display: block;}
+h3{font-family: Arial, Helvetica, sans-serif; text-align: center; font-size: 45px;background-color: rgb(181, 181, 181);padding: 10pc 10px;}
+.contenido{font-family: Arial, Helvetica, sans-serif; font-size: 25px; height: 300px;}
+.lista{font-family: Arial, Helvetica, sans-serif; font-size: 25px;}
+.pie {background-color: rgb(255, 255, 255); text-align: center;padding: 16px 0px;}
+.lista img {display: block; width: 200px; height: auto;}
+
+
+.contenido img {margin: auto; width: 300px; height: auto;float: left;}
+.maggatos{background-image: url(../img/banner.png);width: 100%; height: 450px;}
+.gatopobre img {margin-left: auto;padding: 16px;margin: 10;}
+.lista p {text-align: center; font-size: 35px;}
+.listas img {margin: auto;float: right;}

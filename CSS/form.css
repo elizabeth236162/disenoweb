@@ -1,0 +1,39 @@
+/*documento css*/
+
+
+*{margin: 0px;padding: 0px ;background-color: antiquewhite;}
+body {font-family: "Big Shoulders Stencil", sans-serif ;text-align: center;font-size: 80%;}
+
+h1{}
+h2{padding-bottom: 8px;}
+.cabecera{min-height: 80px; border-bottom: 2px solid black; }
+.cuerpo {width: 100%;}
+.container {width: 100%; margin: 0px auto; display: flex;padding-top: 80px;}
+.container p {font-size: 1.3em;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-bottom:16px ; }
+/*los margin son pa alinear el cuadro*/
+
+.items{width: 50%;padding: 16px; box-sizing: border-box;}
+.items input,textarea {width: 100%; padding: 8px; margin-bottom: 8px;}
+textarea{max-width: 100%;min-width: 100%;min-height: 120px; max-height: 120px;}
+.items a {display: block;width: 120px;padding: 8px;
+            background-color: rgb(89, 255, 0);
+            text-align: center;color: #ffffff;text-decoration: none;
+            font-size: 20px;border-radius: 8px;
+            background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,20,1) 35%, rgba(199,0,255,1) 100%);}
+
+.items a:hover {background-color: blueviolet;}
+.items a:active {background-color: black;}
+.container input.btn { width: 300px; }
+
+#btn{width: 120px;}
+
+.items input::placeholder,textarea::placeholder {color:blueviolet}
+.container::before {content: ""; font-size: 20px; display: block;width: 
+            60px; height: 60px; background:url(../img/send.svg);background-repeat: no-repeat;
+            background-size: 100% 100%;position: relative; top: -30px; left:20px; }
+
+.container::after {content: ""; font-size: 20px; display: block;width: 
+         60px; height: 60px; background:url(../img/send.svg);background-repeat: no-repeat;
+        background-size: 100% 100%;position: relative; top: -160px; right:-30px; }}

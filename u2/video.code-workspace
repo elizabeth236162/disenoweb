@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../video"
+		},
+		{
+			"path": "../u3"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../img"
+		},
+		{
+			"path": "../fonts"
+		},
+		{
+			"path": "../CSS"
+		},
+		{
+			"path": "../audio"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "u2"
+	}
+}

@@ -1,0 +1,64 @@
+/*documento css*/
+
+@font-face {
+    font-family: 'Fortuner';
+    src: url('../fonts/Fortuner-Heavy.woff2}') format('woff2'),
+        url('../fonts/Fortuner-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{margin: 0px; padding: 0px ;}
+.cabecera {font-family: Fortuner; 
+            font-size: 20px;
+            background-color: rgb(53, 102, 225);
+            min min-height: 1px;
+            width: 100% ;}
+.bar {min-height: 1px;
+        }
+.logo {color: rgb(255, 242, 0);
+        font-size: 2em;
+        display: block;
+        width: 40px;
+        padding; 15px 0px;
+        margin: auto;}
+
+.container {display: flex;
+            flex-flow: row wrap;}
+.items {width: 50%;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        background: whitesmoke;
+        padding: 8px 0px;}
+
+.container a:first-child{display: none;}
+
+/*BREAKPOINTS 600PX*/
+@media only screen and (min-width:600px) {
+.logo{font-size: 4em;}
+.items{width: 25%;}}
+
+/*BREAKPOINTS 992PX todo bien*/
+@media only screen and (min-width:992px) {
+.container a:first-child {display: block;border-top-left-radius: 16px;
+                            border-bottom-left-radius: 16px;}
+.container a:last-child{border-top-right-radius: 16px;
+                        border-bottom-right-radius: 16px;}
+.items{width: 20%;}
+.container{width: 80%;
+            margin: auto;
+            position: relative;
+            top: 25px; 
+            border-radius: 16px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.37);
+            }
+            
+.container a:hover {background-color: rgb(0, 0, 0);color: aliceblue;}
+
+}
+
+
+
+

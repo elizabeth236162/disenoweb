@@ -1,0 +1,133 @@
+/*--Documenrto css--*/
+*{margin: 0px; padding: 0px ; }
+
+body {background-color: grey;background-image:url(../img/fondo\ 2.gif);object-fit: cover;}
+main{margin: 5px;}
+
+.cabecera {font-size: 18px; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: block;
+        padding: 15px 15px;
+        margin: 50px;
+        background-color: rgba(0, 0, 0, 0.842);
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;}
+
+
+
+
+
+img    {display: block;
+        width: 200px;
+        padding; 15px 0px;
+        margin: auto;}
+
+h1{text-align: center; color: rgb(255, 255, 255) ;font-family: "Big Shoulders Stencil", sans-serif;font-size: 90px; }
+h2{text-align: center; font-size: 18px; color: rgb(255, 255, 255) ; margin: 5px 15px; padding: 5px;}
+h3{padding: 5px; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.info {display:flex; 
+    flex-wrap: wrap;
+    flex-flow: row wrap; 
+justify-content: space-around;}
+
+.items {display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px; 
+    }
+
+.items {width: 100%;
+        text-decoration: none;
+        text-align: justify;
+        color: black;
+        background: whitesmoke;
+        padding: 8px 0px;
+    display: flex; 
+    flex-flow: row wrap;}
+
+.info a:first-child{display: none;}
+
+.cel{font-size: 18px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    padding: 15px 15px;
+    margin: 50px;
+    color: aqua;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.842);
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;}
+.cel a:hover {background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);}
+.cel a{color: aqua;}
+
+
+.formularios{margin-top: 100px;
+
+
+    
+    .items{width: 50px; box-sizing: border-box;}
+    .items input,textarea {width: 50%;
+                        padding: 8px; 
+                        margin-bottom: 8px; 
+                        text-align: center;}
+    textarea{max-width: 80%;
+            min-width: 80%;
+            min-height: 80px; 
+            max-height: 80px; 
+            margin-left: 50px;margin-right: 50px;}
+
+            
+            
+    
+    .items a:hover {background-color: blueviolet;}S
+    
+    .items input::placeholder,textarea::placeholder {color:blueviolet}}
+    #btn{width: 200px;}
+
+
+.pie{margin-top: 100px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+
+
+/*BREAKPOINTS 600PX*/
+@media only screen and (min-width:600px) {
+
+    .items{width: 50%;}
+    .info a:first-child{display: none;}
+
+    .pie{margin-top: 100px;
+        padding: 0px;}
+
+        #btn{width: 200px;}
+    }
+
+
+    /*BREAKPOINTS 992PX todo bien*/
+    @media only screen and (min-width:992px) {
+
+    .items{width: 20%;}
+    .info a:first-child{display: none;}
+    .pie{margin-top: 100px;
+        padding: 0px;}
+          #btn{width: 200px;}
+    
+
+
+
+
+
+    }
+    

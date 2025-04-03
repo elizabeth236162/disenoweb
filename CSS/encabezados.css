@@ -1,0 +1,5 @@
+/*documento css*/
+h1, h4 {color: rgb(80, 0, 0); font-size: 100px; line-height:150%; text-decoration:underline; text-align: center; }
+h2, h3, h5 {text-align: center;}
+body{background-color: antiquewhite;}
+

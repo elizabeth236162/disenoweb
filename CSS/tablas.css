@@ -1,0 +1,16 @@
+/*documento css*/
+* {margin: 0px; padding: 0px;}
+
+
+.cabecera{margin-bottom: 30px;}
+h1{font-family: "Big Shoulders Stencil", sans-serif ;text-align: center;}
+body{font-family: "Josefin Sans", sans-serif;}
+
+.tablas{margin-bottom: 32px;  
+        height: 80px;
+        background-color: 
+        brown; padding: 16px 0px 16px 0px;
+         min-height: 1px;}
+.tablas table {margin: auto;}
+div.tablas{background-color: blueviolet;margin-bottom: 200px;}
+.pie {background-color: azure;}
